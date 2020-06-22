@@ -1,3 +1,16 @@
+header
+{
+	display: flex;
+	background-color: #f3e9f1;
+	justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+}
+
 #navigation {
     margin: 0 ;
     padding: 0 ;
@@ -8,22 +21,29 @@
   #navigation li {
     display: inline ;
     margin-right: 1px ;
-    color: #fff ;
-    background: #c00 ;
+    color: #3f2630 ;
+    background: #f3e9f1 ;
   }
 
   #navigation li a {
     padding: 4px 20px ;
-    background: #c00 ;
-    color: #fff ;
-    border: 1px solid #600 ;
+    background: #f3e9f1 ;
+    color: #3f2630 ;
+    border: 1px solid 	#d4bfe5 ;
     font: 1em "Trebuchet MS",Arial,sans-serif ;
     line-height: 1em ;
     text-align: center ;
     text-decoration: none ;
+    border-radius: 10px 100px / 120px;
   }
 
   #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
-    background: #900 ;
-    text-decoration: underline ;
+    background: #d4bfe5 ;
+  }
+
+  footer
+  {
+	background-color:#f3e9f1;
+	justify-content: space-between;
+  color:#3f2630;
   }
